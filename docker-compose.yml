@@ -1,0 +1,8 @@
+version: "3"
+services:
+  ape:
+    image: ape:latest
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./code:/code
