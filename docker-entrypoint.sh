@@ -1,6 +1,6 @@
 #!/bin/bash
 if [[ ! -d /code/aperoot ]]; then
-	bootstrape /code/aperoot
+	bootstrape --dev /code/aperoot
 fi
 
 if [ "$1" = 'ape' ]; then
